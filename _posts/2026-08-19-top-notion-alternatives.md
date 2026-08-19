@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Top Notion Alternatives for Teams in 2026"
+description: "Top Notion alternatives for teams in 2026 — ClickUp, Linear, Coda and Obsidian, compared honestly."
 date: 2026-08-19
 categories: alternatives
 ---

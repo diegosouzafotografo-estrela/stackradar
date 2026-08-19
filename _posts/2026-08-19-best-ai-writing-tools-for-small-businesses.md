@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Best AI Writing Tools for Small Businesses in 2026"
+description: "Best AI writing tools for small businesses in 2026 — Jasper, Copy.ai, Writesonic and ChatGPT, tested."
 date: 2026-08-19
 categories: best
 ---

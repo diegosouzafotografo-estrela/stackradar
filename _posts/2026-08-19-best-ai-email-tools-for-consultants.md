@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Best AI Email Assistants for Consultants in 2026"
+description: "Best AI email assistants for consultants in 2026 — Superhuman, Missive, SaneBox, Flowrite and Gemini, tested and compared."
 date: 2026-08-19
 categories: best
 ---

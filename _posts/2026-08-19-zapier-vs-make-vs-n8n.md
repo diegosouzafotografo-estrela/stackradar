@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Zapier vs Make vs n8n: Best Automation Tool in 2026"
+description: "Zapier vs Make vs n8n: which automation tool is best in 2026? Honest comparison of pricing, power and ease of use."
 date: 2026-08-19
 categories: vs
 ---

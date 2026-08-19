@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Best Project Management Tools for Small Teams in 2026"
+description: "Best project management tools for small teams in 2026 — ClickUp, Asana, Trello and Monday.com compared."
 date: 2026-08-19
 categories: best
 ---
