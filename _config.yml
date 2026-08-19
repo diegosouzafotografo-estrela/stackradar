@@ -6,3 +6,5 @@ markdown: kramdown
 theme: minima
 future: true
 permalink: /:title/
+plugins:
+  - jekyll-sitemap
