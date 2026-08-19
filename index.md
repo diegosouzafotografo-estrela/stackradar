@@ -6,10 +6,9 @@ Comparações honestas e testadas de ferramentas SaaS e IA para pequenas empresa
 
 ## Artigos
 
-- [Best AI Email Assistants for Consultants (2026)](/best-ai-email-tools-for-consultants)
-- [Zapier vs Make vs n8n: Best Automation Tool (2026)](/zapier-vs-make-vs-n8n)
-- [Best AI Writing Tools for Small Businesses (2026)](/best-ai-writing-tools-for-small-businesses)
-- [Top Notion Alternatives for Teams (2026)](/top-notion-alternatives)
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ---
 
