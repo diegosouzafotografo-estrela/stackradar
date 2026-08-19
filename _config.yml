@@ -4,3 +4,4 @@ url: "https://stackradar.example.com"
 markdown: kramdown
 theme: minima
 future: true
+permalink: /:title/
