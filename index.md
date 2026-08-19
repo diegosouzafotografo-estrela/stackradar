@@ -7,7 +7,7 @@ Comparações honestas e testadas de ferramentas SaaS e IA para pequenas empresa
 ## Artigos
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 
 ---
