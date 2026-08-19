@@ -1,6 +1,7 @@
 title: StackRadar
 description: Find the right SaaS and AI tools for your small business. Honest comparisons, tested.
-url: "https://stackradar.example.com"
+url: "https://diegosouzafotografo-estrela.github.io"
+baseurl: "/stackradar"
 markdown: kramdown
 theme: minima
 future: true
