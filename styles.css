@@ -248,6 +248,16 @@ body {
   margin-bottom: var(--space-sm);
 }
 
+.card-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.card-link:hover {
+  color: var(--orange);
+}
+
 .card-excerpt {
   color: var(--gray-600);
   margin-bottom: var(--space-md);
