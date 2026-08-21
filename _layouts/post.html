@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — StackRadar</title>
+  <meta name="description" content="{{ page.excerpt | default: page.description | strip_html | truncate: 160 }}">
+  <link rel="icon" href="/brand/logos/compact/garapa-icon-orange.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  {% seo %}
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="/brand/logos/primary/garapa-logo-primary-orange.svg" alt="Garapa" height="32">
+        <span class="logo-divider">|</span>
+        <span class="logo-sub">StackRadar</span>
+      </a>
+      <nav class="nav">
+        <a href="/#reviews" class="nav-link">Reviews</a>
+        <a href="/#comparisons" class="nav-link">Comparativos</a>
+        <a href="/#about" class="nav-link">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Article -->
+  <article class="article">
+    <div class="container">
+      <div class="article-header">
+        <span class="article-tag">{{ page.categories | first }}</span>
+        <h1 class="article-title">{{ page.title }}</h1>
+        <div class="article-meta">
+          <span class="article-date">{{ page.date | date: "%d %b, %Y" }}</span>
+          <span class="article-author">Por {{ page.author | default: "Garapa" }}</span>
+        </div>
+      </div>
+      
+      <div class="article-content">
+        {{ content }}
+      </div>
+
+      <!-- Affiliate Disclosure -->
+      <div class="affiliate-disclosure">
+        <p><strong>Divulgação:</strong> Este artigo contém links de afiliados. Podemos ganhar uma comissão se você fizer uma compra através dos nossos links, sem nenhum custo adicional para você.</p>
+      </div>
+
+      <!-- Related Posts -->
+      <div class="related-posts">
+        <h3>Artigos Relacionados</h3>
+        <div class="related-grid">
+          {% for post in site.posts limit:3 %}
+            {% if post.url != page.url %}
+            <a href="{{ post.url }}" class="related-card">
+              <span class="related-tag">{{ post.categories | first }}</span>
+              <h4>{{ post.title }}</h4>
+            </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="/brand/logos/primary/garapa-logo-primary-orange.svg" alt="Garapa" height="24">
+          <span class="footer-divider">|</span>
+          <span class="footer-sub">StackRadar</span>
+        </div>
+        <div class="footer-links">
+          <a href="/#reviews">Reviews</a>
+          <a href="/#comparisons">Comparativos</a>
+          <a href="/#about">Sobre</a>
+        </div>
+        <div class="footer-copyright">
+          © 2026 Garapa. Todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

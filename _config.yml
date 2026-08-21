@@ -1,10 +1,63 @@
-title: StackRadar
-description: Honest SaaS reviews and comparisons. By Garapa.
-url: "https://diegosouzafotografo-estrela.github.io"
-baseurl: "/stackradar"
+# Configuração do StackRadar
+# Garapa - https://garapa.app
+
+# Informações do Site
+title: "StackRadar"
+description: "Encontre as melhores ferramentas SaaS. Reviews honestos, testes reais, sem enrolação."
+url: "https://stackradar.garapa.app"
+baseurl: ""
+
+# Configuração de Idioma
+lang: pt-BR
+locale: pt-BR
+
+# Autor
+author:
+  name: "Garapa"
+  url: "https://garapa.app"
+
+# Build
 markdown: kramdown
-theme: minima
-future: true
-permalink: /:title/
+permalink: /:categories/:title/
+
+# Plugins
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+seo:
+  type: "Website"
+  title: "StackRadar - Melhores Ferramentas SaaS"
+  description: "Encontre as melhores ferramentas SaaS. Reviews honestos, testes reais, sem enrolação."
+  image: "/brand/logos/primary/garapa-logo-primary-orange.svg"
+
+# Exclude
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+
+# Include
+include:
+  - _posts
+  - _layouts
+  - _includes
+  - assets
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Garapa"

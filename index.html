@@ -1,237 +1,152 @@
----
-layout: default
-title: StackRadar — by Garapa
----
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StackRadar — Por Garapa</title>
+  <meta name="description" content="Encontre as melhores ferramentas SaaS. Reviews honestos, testes reais, sem enrolação. Por Garapa.">
+  <link rel="icon" href="../brand/logos/compact/garapa-icon-orange.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="../brand/logos/primary/garapa-logo-primary-orange.svg" alt="Garapa" height="32">
+        <span class="logo-divider">|</span>
+        <span class="logo-sub">StackRadar</span>
+      </a>
+      <nav class="nav">
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#comparisons" class="nav-link">Comparativos</a>
+        <a href="#about" class="nav-link">Sobre</a>
+      </nav>
+    </div>
+  </header>
 
-<style>
-  :root {
-    --orange: #FF6B35;
-    --navy: #1A365D;
-    --yellow: #FBBF24;
-    --green: #10B981;
-    --white: #FFFFFF;
-    --gray-50: #F9FAFB;
-    --gray-100: #F3F4F6;
-    --gray-200: #E5E7EB;
-    --gray-300: #D1D5DB;
-    --gray-400: #9CA3AF;
-    --gray-500: #6B7280;
-    --gray-600: #4B5563;
-    --gray-700: #374151;
-    --gray-800: #1F2937;
-  }
-
-  .hero {
-    padding: 80px 24px;
-    text-align: center;
-    background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 100%);
-  }
-
-  .hero h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--navy);
-    margin-bottom: 16px;
-    letter-spacing: -0.02em;
-  }
-
-  .hero p {
-    font-size: 1.15rem;
-    color: var(--gray-600);
-    margin-bottom: 32px;
-  }
-
-  .hero p strong {
-    color: var(--orange);
-  }
-
-  .hero-cta {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .btn {
-    display: inline-block;
-    padding: 14px 28px;
-    border-radius: 8px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-
-  .btn-primary {
-    background: var(--orange);
-    color: var(--white);
-  }
-
-  .btn-primary:hover {
-    background: #E55A2B;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
-  }
-
-  .btn-secondary {
-    background: transparent;
-    border: 2px solid var(--navy);
-    color: var(--navy);
-  }
-
-  .btn-secondary:hover {
-    background: var(--navy);
-    color: var(--white);
-  }
-
-  .section {
-    padding: 64px 24px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .section-title {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: var(--navy);
-    margin-bottom: 32px;
-    text-align: center;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
-  }
-
-  .card {
-    background: var(--white);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s;
-    border: 1px solid var(--gray-200);
-  }
-
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
-  }
-
-  .card-content {
-    padding: 24px;
-  }
-
-  .card-tag {
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 500;
-    margin-bottom: 12px;
-    background: #DBEAFE;
-    color: #1E40AF;
-  }
-
-  .card h2 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--navy);
-    margin-bottom: 8px;
-  }
-
-  .card h2 a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .card h2 a:hover {
-    color: var(--orange);
-  }
-
-  .card-excerpt {
-    color: var(--gray-600);
-    margin-bottom: 16px;
-    font-size: 0.95rem;
-    line-height: 1.6;
-  }
-
-  .card-meta {
-    font-size: 0.85rem;
-    color: var(--gray-500);
-  }
-
-  .brand-footer {
-    text-align: center;
-    padding: 32px 24px;
-    background: var(--gray-50);
-    border-top: 1px solid var(--gray-200);
-  }
-
-  .brand-footer p {
-    color: var(--gray-600);
-    font-size: 0.9rem;
-  }
-
-  .brand-footer strong {
-    color: var(--orange);
-  }
-
-  @media (max-width: 768px) {
-    .hero h1 {
-      font-size: 1.75rem;
-    }
-
-    .hero-cta {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .btn {
-      width: 100%;
-      max-width: 280px;
-      text-align: center;
-    }
-  }
-</style>
-
-<!-- Hero -->
-<section class="hero">
-  <h1>Find the right SaaS tools</h1>
-  <p>Honest reviews, real testing, no BS. By <strong>Garapa</strong>.</p>
-  <div class="hero-cta">
-    <a href="#reviews" class="btn btn-primary">Read Reviews</a>
-    <a href="#about" class="btn btn-secondary">About</a>
-  </div>
-</section>
-
-<!-- Reviews -->
-<section id="reviews" class="section">
-  <h2 class="section-title">Latest Reviews</h2>
-  <div class="grid">
-    {% for post in site.posts limit:6 %}
-    <article class="card">
-      <div class="card-content">
-        <span class="card-tag">SaaS</span>
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-        <div class="card-meta">{{ post.date | date: "%b %d, %Y" }}</div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Encontre as melhores ferramentas SaaS</h1>
+      <p class="hero-subtitle">Reviews honestos, testes reais, sem enrolação. Por <strong>Garapa</strong>.</p>
+      <div class="hero-cta">
+        <a href="#reviews" class="btn btn-primary">Ler Reviews</a>
+        <a href="#comparisons" class="btn btn-secondary">Comparar Ferramentas</a>
       </div>
-    </article>
-    {% endfor %}
-  </div>
-</section>
+    </div>
+  </section>
 
-<!-- About -->
-<section id="about" class="section" style="background: var(--gray-50); max-width: 100%; padding: 64px 24px;">
-  <div style="max-width: 600px; margin: 0 auto; text-align: center;">
-    <h2 class="section-title">About StackRadar</h2>
-    <p style="color: var(--gray-600); margin-bottom: 16px;">StackRadar is a <strong style="color: var(--orange);">Garapa</strong> project dedicated to honest SaaS reviews and comparisons.</p>
-    <p style="color: var(--gray-600); margin-bottom: 16px;">We test tools for 30+ days before writing about them. No sponsored reviews. No BS.</p>
-    <p style="color: var(--gray-600);">Our mission: help founders make better decisions about their tech stack.</p>
-  </div>
-</section>
+  <!-- Featured Reviews -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <h2 class="section-title">Últimos Reviews</h2>
+      <div class="grid">
+        <!-- Review Card 1 -->
+        <article class="card">
+          <div class="card-image" style="background-color: #FF6B35;"></div>
+          <div class="card-content">
+            <span class="card-tag tag-saas">SaaS</span>
+            <h3 class="card-title">Melhores Ferramentas de IA para Escritores</h3>
+            <p class="card-excerpt">Analisamos as 7 melhores ferramentas de IA para escritores em 2026. Jasper, Copy.ai, Rytr e mais.</p>
+            <div class="card-meta">
+              <span class="card-date">20 Ago, 2026</span>
+              <span class="card-rating">⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+        </article>
 
-<!-- Brand Footer -->
-<div class="brand-footer">
-  <p>A <strong>Garapa</strong> project · © 2026 Garapa. All rights reserved.</p>
-</div>
+        <!-- Review Card 2 -->
+        <article class="card">
+          <div class="card-image" style="background-color: #1A365D;"></div>
+          <div class="card-content">
+            <span class="card-tag tag-saas">SaaS</span>
+            <h3 class="card-title">Melhores Softwares de Email Marketing</h3>
+            <p class="card-excerpt">ConvertKit, Mailchimp, ActiveCampaign e mais. Qual o melhor para seu negócio?</p>
+            <div class="card-meta">
+              <span class="card-date">21 Ago, 2026</span>
+              <span class="card-rating">⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review Card 3 -->
+        <article class="card">
+          <div class="card-image" style="background-color: #10B981;"></div>
+          <div class="card-content">
+            <span class="card-tag tag-saas">SaaS</span>
+            <h3 class="card-title">Melhores Ferramentas de Gestão de Projetos</h3>
+            <p class="card-excerpt">Notion, Asana, Monday.com e mais. Compare as melhores opções para sua equipe.</p>
+            <div class="card-meta">
+              <span class="card-date">22 Ago, 2026</span>
+              <span class="card-rating">⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review Card 4 -->
+        <article class="card">
+          <div class="card-image" style="background-color: #F59E0B;"></div>
+          <div class="card-content">
+            <span class="card-tag tag-saas">SaaS</span>
+            <h3 class="card-title">Melhores CRMs para Pequenas Empresas</h3>
+            <p class="card-excerpt">HubSpot, Pipedrive, RD Station e mais. Organize seus clientes e aumente suas vendas.</p>
+            <div class="card-meta">
+              <span class="card-date">23 Ago, 2026</span>
+              <span class="card-rating">⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review Card 5 -->
+        <article class="card">
+          <div class="card-image" style="background-color: #8B5CF6;"></div>
+          <div class="card-content">
+            <span class="card-tag tag-saas">SaaS</span>
+            <h3 class="card-title">Melhores Construtores de Site</h3>
+            <p class="card-excerpt">Squarespace, Wix, WordPress e mais. Crie um site profissional sem saber programar.</p>
+            <div class="card-meta">
+              <span class="card-date">24 Ago, 2026</span>
+              <span class="card-rating">⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Sobre o StackRadar</h2>
+      <div class="about-content">
+        <p>O StackRadar é um projeto da <strong>Garapa</strong> dedicado a reviews honestos e comparativos de ferramentas SaaS.</p>
+        <p>Testamos ferramentas por mais de 30 dias antes de escrever sobre elas. Sem reviews patrocinados. Sem enrolação.</p>
+        <p>Nossa missão: ajudar fundadores e empreendedores a tomar decisões melhores sobre suas ferramentas de trabalho.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="../brand/logos/primary/garapa-logo-primary-orange.svg" alt="Garapa" height="24">
+          <span class="footer-divider">|</span>
+          <span class="footer-sub">StackRadar</span>
+        </div>
+        <div class="footer-links">
+          <a href="#reviews">Reviews</a>
+          <a href="#comparisons">Comparativos</a>
+          <a href="#about">Sobre</a>
+        </div>
+        <div class="footer-copyright">
+          © 2026 Garapa. Todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
