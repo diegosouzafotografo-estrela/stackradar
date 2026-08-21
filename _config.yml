@@ -4,8 +4,8 @@
 # Informações do Site
 title: "StackRadar"
 description: "Encontre as melhores ferramentas SaaS. Reviews honestos, testes reais, sem enrolação."
-url: "https://stackradar.garapa.app"
-baseurl: ""
+url: "https://diegosouzafotografo-estrela.github.io"
+baseurl: "/stackradar"
 
 # Configuração de Idioma
 lang: pt-BR
