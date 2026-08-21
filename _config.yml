@@ -46,6 +46,7 @@ include:
   - _layouts
   - _includes
   - assets
+  - styles.css
 
 # Collections
 collections:

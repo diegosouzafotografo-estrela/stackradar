@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Symbol: Abstract eye/discovery mark -->
+  <g transform="translate(0, 10)">
+    <!-- Outer circle - discovery -->
+    <circle cx="25" cy="20" r="18" stroke="#FF6B35" stroke-width="3" fill="none"/>
+    <!-- Inner dot - focus/instinct -->
+    <circle cx="25" cy="20" r="6" fill="#FF6B35"/>
+    <!-- Arrow/streak - movement -->
+    <path d="M43 20 L55 20" stroke="#1A365D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M50 15 L58 20 L50 25" stroke="#1A365D" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Wordmark: GARAPA -->
+  <text x="70" y="38" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" font-weight="700" fill="#1A365D" letter-spacing="-1">GARAPA</text>
+</svg>
