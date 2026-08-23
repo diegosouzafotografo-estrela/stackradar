@@ -1,0 +1,100 @@
+# Catálogo operacional. URLs de tracking só entram após aprovação do programa.
+# O campo affiliate_url permanece vazio para impedir atribuição fictícia.
+- key: hubspot-crm
+  article: /saas/crm/melhores-crms-pequenas-empresas/
+  product_url: https://www.hubspot.com/products/crm
+  affiliate_application: https://www.hubspot.com/partners/affiliates
+  affiliate_url: ""
+  cta: "Começar com o HubSpot CRM grátis →"
+  status: apply
+  network: Impact
+  evidence: "30% recorrente por até 12 meses"
+  verified_on: 2026-08-23
+
+- key: pipedrive
+  article: /saas/crm/melhores-crms-pequenas-empresas/
+  product_url: https://www.pipedrive.com/
+  affiliate_application: https://www.pipedrive.com/en/affiliate-partnership
+  affiliate_url: ""
+  cta: "Testar o Pipedrive por 30 dias →"
+  status: apply
+  network: PartnerStack
+  evidence: "20% da receita por 12 meses no nível inicial"
+  verified_on: 2026-08-23
+
+- key: clickup
+  article: /saas/ferramentas-gestao/melhores-ferramentas-gestao-projetos/
+  product_url: https://clickup.com/
+  affiliate_application: https://clickup.com/partners/affiliates
+  affiliate_url: ""
+  cta: "Começar um workspace grátis no ClickUp →"
+  status: watch
+  network: PartnerStack
+  evidence: "link único após candidatura e aprovação"
+  verified_on: 2026-08-23
+
+- key: monday
+  article: /saas/ferramentas-gestao/melhores-ferramentas-gestao-projetos/
+  product_url: https://monday.com/
+  affiliate_application: https://monday.com/affiliate-program
+  affiliate_url: ""
+  cta: "Testar o monday.com gratuitamente →"
+  status: watch
+  network: PartnerStack
+  evidence: "até 100% das vendas do primeiro ano conforme nível"
+  verified_on: 2026-08-23
+
+- key: kit
+  article: /saas/email-marketing/melhores-softwares-email-marketing/
+  product_url: https://kit.com/
+  affiliate_application: https://kit.com/affiliate
+  affiliate_url: ""
+  cta: "Criar sua newsletter no Kit →"
+  status: apply
+  network: PartnerStack
+  evidence: "50% no primeiro ano"
+  verified_on: 2026-08-23
+
+- key: activecampaign
+  article: /saas/email-marketing/melhores-softwares-email-marketing/
+  product_url: https://www.activecampaign.com/
+  affiliate_application: https://help.activecampaign.com/hc/en-us/articles/115000065864-Affiliate-program
+  affiliate_url: ""
+  cta: "Conhecer a automação da ActiveCampaign →"
+  status: watch
+  network: PartnerStack
+  evidence: "30% recorrente por até 12 meses"
+  verified_on: 2026-08-23
+
+- key: getresponse
+  article: /saas/email-marketing/melhores-softwares-email-marketing/
+  product_url: https://www.getresponse.com/
+  affiliate_application: https://www.getresponse.com/affiliate-programs
+  affiliate_url: ""
+  cta: "Testar o GetResponse →"
+  status: watch
+  network: PartnerStack
+  evidence: "40% recorrente inicial por 12 meses"
+  verified_on: 2026-08-23
+
+- key: shopify
+  article: /saas/construtores/melhores-construtores-de-site/
+  product_url: https://www.shopify.com/
+  affiliate_application: https://www.shopify.com/affiliates
+  affiliate_url: ""
+  cta: "Criar uma loja no Shopify →"
+  status: watch
+  network: Impact
+  evidence: "até US$150 por indicação qualificada"
+  verified_on: 2026-08-23
+
+- key: hostinger
+  article: /saas/construtores/melhores-construtores-de-site/
+  product_url: https://www.hostinger.com/
+  affiliate_application: https://www.hostinger.com/affiliates
+  affiliate_url: ""
+  cta: "Conhecer os planos da Hostinger →"
+  status: watch
+  network: Direto
+  evidence: "comissão inicial de 40%"
+  verified_on: 2026-08-23

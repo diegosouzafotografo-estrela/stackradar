@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} — StackRadar</title>
   <meta name="description" content="{{ page.excerpt | default: page.description | strip_html | truncate: 160 }}">
-  <link rel="icon" href="/brand/logos/compact/garapa-icon-orange.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="{{ '/brand/logos/compact/elofirme-icon-orange.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   {% seo %}
 </head>
@@ -14,15 +14,15 @@
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <a href="/" class="logo">
-        <img src="/brand/logos/primary/garapa-logo-primary-orange.svg" alt="Garapa" height="32">
+      <a href="{{ '/' | relative_url }}" class="logo">
+        <img src="{{ '/brand/logos/primary/elofirme-logo-primary-orange.svg' | relative_url }}" alt="Elo Firme" height="32">
         <span class="logo-divider">|</span>
         <span class="logo-sub">StackRadar</span>
       </a>
       <nav class="nav">
-        <a href="/#reviews" class="nav-link">Reviews</a>
-        <a href="/#comparisons" class="nav-link">Comparativos</a>
-        <a href="/#about" class="nav-link">Sobre</a>
+        <a href="{{ '/#reviews' | relative_url }}" class="nav-link">Reviews</a>
+        <a href="{{ '/#comparisons' | relative_url }}" class="nav-link">Comparativos</a>
+        <a href="{{ '/#about' | relative_url }}" class="nav-link">Sobre</a>
       </nav>
     </div>
   </header>
@@ -35,7 +35,7 @@
         <h1 class="article-title">{{ page.title }}</h1>
         <div class="article-meta">
           <span class="article-date">{{ page.date | date: "%d %b, %Y" }}</span>
-          <span class="article-author">Por {{ page.author | default: "Garapa" }}</span>
+          <span class="article-author">Por {{ page.author | default: "Elo Firme" }}</span>
         </div>
       </div>
       
@@ -43,9 +43,38 @@
         {{ content }}
       </div>
 
+      {% assign article_offers = site.data.affiliate-catalog | where: "article", page.url %}
+      {% if article_offers.size > 0 %}
+      <section class="product-offers" aria-labelledby="product-offers-title">
+        <div class="product-offers-heading">
+          <span>Próximo passo</span>
+          <h2 id="product-offers-title">Ferramentas ligadas a este comparativo</h2>
+          <p>Links oficiais verificados. Quando um programa aprovar o StackRadar, o mesmo card passa a usar o link rastreável sem alterar a recomendação.</p>
+        </div>
+        <div class="product-offers-grid">
+          {% for offer in article_offers %}
+            {% assign offer_url = offer.product_url %}
+            {% assign offer_rel = "nofollow noopener" %}
+            {% assign offer_label = "Link oficial" %}
+            {% if offer.status == "active" and offer.affiliate_url != "" %}
+              {% assign offer_url = offer.affiliate_url %}
+              {% assign offer_rel = "sponsored nofollow noopener" %}
+              {% assign offer_label = "Link afiliado" %}
+            {% endif %}
+            <article class="product-offer-card">
+              <span>{{ offer_label }} · verificado em {{ offer.verified_on }}</span>
+              <h3>{{ offer.key | replace: "-", " " | capitalize }}</h3>
+              <p>{{ offer.evidence }}</p>
+              <a href="{{ offer_url }}" rel="{{ offer_rel }}" target="_blank" data-offer="{{ offer.key }}" data-status="{{ offer.status }}">{{ offer.cta }}</a>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
       <!-- Affiliate Disclosure -->
       <div class="affiliate-disclosure">
-        <p><strong>Divulgação:</strong> Este artigo contém links de afiliados. Podemos ganhar uma comissão se você fizer uma compra através dos nossos links, sem nenhum custo adicional para você.</p>
+        <p><strong>Transparência:</strong> Os links de produto apontam para as páginas oficiais. Alguns poderão receber rastreamento de afiliado após aprovação dos programas; isso não altera nossa avaliação e não aumenta o preço para você.</p>
       </div>
 
       <!-- Related Posts -->
@@ -54,7 +83,7 @@
         <div class="related-grid">
           {% for post in site.posts limit:3 %}
             {% if post.url != page.url %}
-            <a href="{{ post.url }}" class="related-card">
+            <a href="{{ post.url | relative_url }}" class="related-card">
               <span class="related-tag">{{ post.categories | first }}</span>
               <h4>{{ post.title }}</h4>
             </a>
@@ -70,17 +99,17 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <img src="/brand/logos/primary/garapa-logo-primary-orange.svg" alt="Garapa" height="24">
+          <img src="{{ '/brand/logos/primary/elofirme-logo-primary-orange.svg' | relative_url }}" alt="Elo Firme" height="24">
           <span class="footer-divider">|</span>
           <span class="footer-sub">StackRadar</span>
         </div>
         <div class="footer-links">
-          <a href="/#reviews">Reviews</a>
-          <a href="/#comparisons">Comparativos</a>
-          <a href="/#about">Sobre</a>
+          <a href="{{ '/#reviews' | relative_url }}">Reviews</a>
+          <a href="{{ '/#comparisons' | relative_url }}">Comparativos</a>
+          <a href="{{ '/#about' | relative_url }}">Sobre</a>
         </div>
         <div class="footer-copyright">
-          © 2026 Garapa. Todos os direitos reservados.
+          © 2026 Elo Firme. Todos os direitos reservados.
         </div>
       </div>
     </div>

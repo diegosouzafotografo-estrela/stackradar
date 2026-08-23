@@ -7,6 +7,7 @@ categories: [saas, crm]
 tags: [crm, vendas, gestão-de-clientes, pequenas-empresas, hubspot, pipedrive]
 affiliate: true
 lang: pt-BR
+published: false
 ---
 
 # Melhor CRM para Pequenas Empresas em 2026: Testamos 7 Opções
@@ -62,7 +63,7 @@ O HubSpot CRM é a opção gratuita mais completa do mercado. Testamos por 45 di
 
 **Preço:** Gratuito; pago a partir de $45/mês (R$234)
 
-**[Começar com HubSpot CRM grátis →](https://hubspot.com/crm/?via=garapa)**
+**[Começar com HubSpot CRM grátis →](https://www.hubspot.com/products/crm)**
 
 ---
 
@@ -91,7 +92,7 @@ O Pipedrive foi criado para equipes de vendas. Testamos por 30 dias e a pipeline
 
 **Preço:** A partir de $14/mês (R$73) por usuário
 
-**[Testar Pipedrive grátis →](https://pipedrive.com/?via=garapa)**
+**[Testar Pipedrive grátis →](https://www.pipedrive.com/)**
 
 ---
 
@@ -120,7 +121,7 @@ O RD Station é o CRM brasileiro mais popular. Testamos por 30 dias e o suporte 
 
 **Preço:** A partir de R$59/mês
 
-**[Criar conta no RD Station →](https://rdstation.com/?via=garapa)**
+**[Criar conta no RD Station →](https://www.rdstation.com/)**
 
 ---
 
@@ -149,7 +150,7 @@ O Freshsales oferece o melhor custo-benefício. Testamos por 30 dias e surpreend
 
 **Preço:** Gratuito; pago a partir de $15/mês (R$78)
 
-**[Começar com Freshsales grátis →](https://freshworks.com/crm/?via=garapa)**
+**[Começar com Freshsales grátis →](https://www.freshworks.com/crm/)**
 
 ---
 
@@ -178,7 +179,7 @@ O Zoho CRM permite personalizar tudo. Testamos por 30 dias e a flexibilidade é 
 
 **Preço:** Gratuito até 3 usuários; pago a partir de $14/mês (R$73) por usuário
 
-**[Testar Zoho CRM grátis →](https://zoho.com/crm/?via=garapa)**
+**[Testar Zoho CRM grátis →](https://www.zoho.com/crm/)**
 
 ---
 
@@ -207,7 +208,7 @@ O Salesforce é o mais poderoso. Testamos por 30 dias e é ideal para empresas q
 
 **Preço:** A partir de $25/mês (R$130) por usuário
 
-**[Testar Salesforce →](https://salesforce.com/?via=garapa)**
+**[Testar Salesforce →](https://www.salesforce.com/)**
 
 ---
 
@@ -236,7 +237,7 @@ O Agenda CRM é brasileiro e simplificado. Testamos por 30 dias e é perfeito pa
 
 **Preço:** Gratuito; pago a partir de R$29/mês
 
-**[Criar conta no Agenda CRM →](https://agendacrm.com.br/?via=garapa)**
+**[Criar conta no Agenda CRM →](https://agendacrm.com.br/)**
 
 ---
 

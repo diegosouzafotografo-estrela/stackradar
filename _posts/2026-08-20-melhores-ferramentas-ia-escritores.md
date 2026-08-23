@@ -45,7 +45,7 @@ O Jasper é a ferramenta mais completa do mercado para escritores profissionais.
 
 **Preço:** A partir de $49/mês (cerca de R$250)
 
-**[Experimentar Jasper AI gratuitamente →](https://jasper.ai/?via=garapa)**
+**[Experimentar Jasper AI gratuitamente →](https://www.jasper.ai/)**
 
 ---
 
@@ -66,7 +66,7 @@ O Copy.ai é ideal para quem está começando a usar IA para escrever. Com um pl
 
 **Preço:** Plano gratuito; pago a partir de $49/mês (R$250)
 
-**[Começar com Copy.ai grátis →](https://copy.ai/?via=garapa)**
+**[Começar com Copy.ai grátis →](https://www.copy.ai/)**
 
 ---
 
@@ -87,7 +87,7 @@ O Rytr é perfeito para quem precisa criar conteúdo rápido para redes sociais,
 
 **Preço:** Plano gratuito; pago a partir de $9/mês (R$47)
 
-**[Testar Rytr gratuitamente →](https://rytr.me/?via=garapa)**
+**[Testar Rytr gratuitamente →](https://rytr.me/)**
 
 ---
 
@@ -108,7 +108,7 @@ O Writesonic é especializado em conteúdo otimizado para mecanismos de busca. C
 
 **Preço:** A partir de $16/mês (R$83)
 
-**[Criar conteúdo SEO com Writesonic →](https://writesonic.com/?via=garapa)**
+**[Criar conteúdo SEO com Writesonic →](https://writesonic.com/)**
 
 ---
 
@@ -129,7 +129,7 @@ O Grammarly não gera conteúdo, mas é essencial para revisar e melhorar textos
 
 **Preço:** Plano gratuito; premium a partir de $12/mês (R$62)
 
-**[Melhorar seus textos com Grammarly →](https://grammarly.com/?via=garapa)**
+**[Melhorar seus textos com Grammarly →](https://www.grammarly.com/)**
 
 ---
 
@@ -150,7 +150,7 @@ O Notion AI combina ferramentas de produtividade com IA, permitindo que equipes 
 
 **Preço:** $10/mês (R$52) + $10/mês pela IA (R$52)
 
-**[Usar Notion AI para equipes →](https://notion.so/?via=garapa)**
+**[Usar Notion AI para equipes →](https://notion.so/)**
 
 ---
 
@@ -171,7 +171,7 @@ O ChatGPT Plus da OpenAI é a ferramenta mais versátil do mercado. Com capacida
 
 **Preço:** $20/mês (R$104)
 
-**[Assinar ChatGPT Plus →](https://chat.openai.com/?via=garapa)**
+**[Assinar ChatGPT Plus →](https://chatgpt.com/)**
 
 ---
 

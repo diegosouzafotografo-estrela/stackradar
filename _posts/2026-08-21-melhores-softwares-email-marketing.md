@@ -45,7 +45,7 @@ O ConvertKit foi criado especificamente para criadores de conteúdo, oferecendo 
 
 **Preço:** Gratuito até 1.000 contatos; pago a partir de $29/mês (R$151)
 
-**[Começar com ConvertKit grátis →](https://convertkit.com/?via=garapa)**
+**[Começar com Kit grátis →](https://kit.com/)**
 
 ---
 
@@ -66,7 +66,7 @@ O Mailchimp é a plataforma de email marketing mais popular do mundo, conhecida 
 
 **Preço:** Gratuito até 500 contatos; pago a partir de $13/mês (R$68)
 
-**[Criar conta gratuita no Mailchimp →](https://mailchimp.com/?via=garapa)**
+**[Criar conta gratuita no Mailchimp →](https://mailchimp.com/)**
 
 ---
 
@@ -87,7 +87,7 @@ O ActiveCampaign é a plataforma mais poderosa para automação de marketing. Co
 
 **Preço:** A partir de $29/mês (R$151)
 
-**[Testar ActiveCampaign grátis →](https://activecampaign.com/?via=garapa)**
+**[Testar ActiveCampaign grátis →](https://www.activecampaign.com/)**
 
 ---
 
@@ -108,7 +108,7 @@ O Beehiiv é uma plataforma moderna focada em newsletters, oferecendo recursos c
 
 **Preço:** Gratuito até 2.500 assinantes; pago a partir de $42/mês (R$218)
 
-**[Criar newsletter no Beehiiv →](https://beehiiv.com/?via=garapa)**
+**[Criar newsletter no Beehiiv →](https://www.beehiiv.com/)**
 
 ---
 
@@ -129,7 +129,7 @@ O GetResponse é uma plataforma completa com foco no mercado brasileiro, oferece
 
 **Preço:** Gratuito até 500 contatos; pago a partir de $59/mês (R$307)
 
-**[Começar com GetResponse →](https://getresponse.com/?via=garapa)**
+**[Começar com GetResponse →](https://www.getresponse.com/)**
 
 ---
 
@@ -150,7 +150,7 @@ O HubSpot oferece uma plataforma completa de marketing, vendas e atendimento ao 
 
 **Preço:** Plano gratuito disponível; pago a partir de $45/mês (R$234)
 
-**[Usar HubSpot gratuitamente →](https://hubspot.com/?via=garapa)**
+**[Usar HubSpot gratuitamente →](https://www.hubspot.com/)**
 
 ---
 
@@ -171,7 +171,7 @@ O Brevo oferece o melhor custo-benefício do mercado, com planos baseados no vol
 
 **Preço:** Gratuito até 300 e-mails/dia; pago a partir de $25/mês (R$130)
 
-**[Começar com Brevo grátis →](https://brevo.com/?via=garapa)**
+**[Começar com Brevo grátis →](https://www.brevo.com/)**
 
 ---
 

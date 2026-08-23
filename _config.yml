@@ -1,9 +1,9 @@
 # Configuração do StackRadar
-# Garapa - https://garapa.app
+# Elo Firme - https://elofirme.com.br
 
 # Informações do Site
 title: "StackRadar"
-description: "Encontre as melhores ferramentas SaaS. Reviews honestos, testes reais, sem enrolação."
+description: "Encontre ferramentas SaaS com comparativos claros, fontes verificáveis e sem enrolação."
 url: "https://diegosouzafotografo-estrela.github.io"
 baseurl: "/stackradar"
 
@@ -13,8 +13,8 @@ locale: pt-BR
 
 # Autor
 author:
-  name: "Garapa"
-  url: "https://garapa.app"
+  name: "Elo Firme"
+  url: "https://elofirme.com.br"
 
 # Build
 markdown: kramdown
@@ -30,8 +30,8 @@ plugins:
 seo:
   type: "Website"
   title: "StackRadar - Melhores Ferramentas SaaS"
-  description: "Encontre as melhores ferramentas SaaS. Reviews honestos, testes reais, sem enrolação."
-  image: "/brand/logos/primary/garapa-logo-primary-orange.svg"
+  description: "Encontre ferramentas SaaS com comparativos claros, fontes verificáveis e sem enrolação."
+  image: "/brand/logos/primary/elofirme-logo-primary-orange.svg"
 
 # Exclude
 exclude:
@@ -39,14 +39,6 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
-
-# Include
-include:
-  - _posts
-  - _layouts
-  - _includes
-  - assets
-  - styles.css
 
 # Collections
 collections:
@@ -61,5 +53,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Garapa"
+      author: "Elo Firme"
 # Build timestamp: Fri Aug 21 08:41:28 -03 2026

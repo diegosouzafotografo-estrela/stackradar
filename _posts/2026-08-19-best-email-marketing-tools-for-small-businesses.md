@@ -3,7 +3,7 @@ layout: post
 title: "Best Email Marketing Tools for Small Businesses in 2026"
 date: 2026-08-19
 categories: best
-description: "Best email marketing tools for small businesses in 2026 — Mailchimp, ConvertKit, Brevo and more, tested and compared."
+description: "Best email marketing tools for small businesses in 2026 — Mailchimp, ConvertKit, Brevo and more, researched and compared."
 ---
 
 # Best Email Marketing Tools for Small Businesses in 2026

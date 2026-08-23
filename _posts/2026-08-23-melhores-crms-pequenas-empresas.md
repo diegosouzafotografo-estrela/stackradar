@@ -47,7 +47,7 @@ O HubSpot CRM é a opção gratuita mais completa do mercado, oferecendo recurso
 
 **Preço:** Gratuito; pago a partir de $45/mês (R$234)
 
-**[Começar com HubSpot CRM grátis →](https://hubspot.com/crm/?via=garapa)**
+**[Começar com HubSpot CRM grátis →](https://www.hubspot.com/products/crm)**
 
 ---
 
@@ -68,7 +68,7 @@ O Pipedrive foi criado especificamente para equipes de vendas, com foco em pipel
 
 **Preço:** A partir de $14/mês (R$73) por usuário
 
-**[Testar Pipedrive grátis →](https://pipedrive.com/?via=garapa)**
+**[Testar Pipedrive grátis →](https://www.pipedrive.com/)**
 
 ---
 
@@ -89,7 +89,7 @@ O RD Station é o CRM brasileiro mais popular, oferecendo recursos de marketing 
 
 **Preço:** A partir de R$59/mês
 
-**[Criar conta no RD Station →](https://rdstation.com/?via=garapa)**
+**[Criar conta no RD Station →](https://www.rdstation.com/)**
 
 ---
 
@@ -110,7 +110,7 @@ O Freshsales oferece o melhor custo-benefício do mercado, com recursos avançad
 
 **Preço:** Gratuito; pago a partir de $15/mês (R$78)
 
-**[Começar com Freshsales grátis →](https://freshworks.com/crm/?via=garapa)**
+**[Começar com Freshsales grátis →](https://www.freshworks.com/crm/)**
 
 ---
 
@@ -131,7 +131,7 @@ O Zoho CRM oferece personalização extrema, permitindo adaptar a plataforma ao 
 
 **Preço:** Gratuito até 3 usuários; pago a partir de $14/mês (R$73) por usuário
 
-**[Testar Zoho CRM grátis →](https://zoho.com/crm/?via=garapa)**
+**[Testar Zoho CRM grátis →](https://www.zoho.com/crm/)**
 
 ---
 
@@ -152,7 +152,7 @@ O Salesforce é o CRM mais poderoso do mercado, com recursos avançados de autom
 
 **Preço:** A partir de $25/mês (R$130) por usuário
 
-**[Testar Salesforce →](https://salesforce.com/?via=garapa)**
+**[Testar Salesforce →](https://www.salesforce.com/)**
 
 ---
 
@@ -173,7 +173,7 @@ O Agenda CRM é uma ferramenta brasileira simplificada para autônomos e pequeno
 
 **Preço:** Gratuito; pago a partir de R$29/mês
 
-**[Criar conta no Agenda CRM →](https://agendacrm.com.br/?via=garapa)**
+**[Criar conta no Agenda CRM →](https://agendacrm.com.br/)**
 
 ---
 
@@ -232,4 +232,3 @@ O mais importante é começar a organizar seus contatos hoje. Um CRM bem usado p
 ---
 
 *Divulgação: Este post contém links de afiliados. Podemos ganhar uma comissão se você fizer uma compra através dos nossos links, sem nenhum custo adicional para você. Recomendamos apenas produtos que usamos e confiamos.*
-
