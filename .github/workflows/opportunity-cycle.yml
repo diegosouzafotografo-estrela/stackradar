@@ -1,0 +1,41 @@
+name: Opportunity cycle
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 * * 1,4"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/opportunity-audit.mjs
+      - run: cat docs/opportunity-scan.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: opportunity-scan-${{ github.run_id }}
+          path: docs/opportunity-scan.*
+      - name: Maintain operational issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="EEN: revisar oportunidades do StackRadar"
+          issue_number="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
+          pending="$(node -e "const r=require('./docs/opportunity-scan.json'); console.log(r.candidates.length+r.stale_sources.length)")"
+          if [ "$pending" -gt 0 ]; then
+            if [ -n "$issue_number" ]; then
+              gh issue comment "$issue_number" --body-file docs/opportunity-scan.md
+            else
+              gh issue create --title "$title" --body-file docs/opportunity-scan.md
+            fi
+          elif [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "Ciclo sem candidatos ou fontes vencidas; fila encerrada automaticamente."
+          fi
