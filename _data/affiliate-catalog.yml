@@ -98,3 +98,14 @@
   network: Direto
   evidence: "comissão inicial de 40%"
   verified_on: 2026-08-23
+
+- key: weeke
+  article: /saas/construtores/melhores-construtores-de-site/
+  product_url: https://weeke.com.br/
+  affiliate_application: https://weeke.com.br/afiliados/
+  affiliate_url: https://central.weeke.com.br/aff.php?aff=48
+  cta: "Conhecer os planos da Weeke →"
+  status: active
+  network: Direto
+  evidence: "programa Weeke: comissão de 10% nos primeiros 12 meses"
+  verified_on: 2026-08-24
