@@ -52,22 +52,22 @@
         <div class="product-offers-heading">
           <span>Próximo passo</span>
           <h2 id="product-offers-title">Ferramentas ligadas a este comparativo</h2>
-          <p>Links oficiais verificados. Quando um programa aprovar o StackRadar, o mesmo card passa a usar o link rastreável sem alterar a recomendação.</p>
+          <p>Opções selecionadas para este comparativo, com acesso direto às páginas oficiais dos produtos.</p>
         </div>
         <div class="product-offers-grid">
           {% for offer in article_offers %}
             {% assign offer_url = offer.product_url %}
             {% assign offer_rel = "nofollow noopener" %}
-            {% assign offer_label = "Link oficial" %}
+            {% assign offer_label = "Produto recomendado" %}
             {% if offer.status == "active" and offer.affiliate_url != "" %}
               {% assign offer_url = offer.affiliate_url %}
               {% assign offer_rel = "sponsored nofollow noopener" %}
-              {% assign offer_label = "Link afiliado" %}
+              {% assign offer_label = "Oferta recomendada" %}
             {% endif %}
             <article class="product-offer-card">
-              <span>{{ offer_label }} · verificado em {{ offer.verified_on }}</span>
+              <span>{{ offer_label }} · fonte verificada em {{ offer.verified_on }}</span>
               <h3>{{ offer.key | replace: "-", " " | capitalize }}</h3>
-              <p>{{ offer.evidence }}</p>
+              <p>{{ offer.product_summary | default: "Conheça os recursos e condições diretamente no site oficial." }}</p>
               <a href="{{ offer_url }}" rel="{{ offer_rel }}" target="_blank" data-track="product-cta" data-offer="{{ offer.key }}" data-status="{{ offer.status }}">{{ offer.cta }}</a>
             </article>
           {% endfor %}

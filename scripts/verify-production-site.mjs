@@ -19,12 +19,14 @@ if (missing.length) {
 }
 
 const html = fs.readFileSync(page, "utf8");
+const offerSection = html.match(/<section class="product-offers"[\s\S]*?<\/section>/)?.[0] ?? "";
 const checks = {
   stylesheet: /href="\/styles\.css"/.test(html),
   logo: /src="\/brand\/logos\//.test(html),
   weeke_cta: /data-offer="weeke"[^>]*data-status="active"/.test(html),
   weeke_link: /https:\/\/central\.weeke\.com\.br\/aff\.php\?aff=48/.test(html),
-  no_homologation_prefix: !/(?:href|src)="\/stackradar\//.test(html)
+  no_homologation_prefix: !/(?:href|src)="\/stackradar\//.test(html),
+  no_internal_commission_copy: !/(?:comiss[aã]o|recorrente|indica[cç][aã]o qualificada)/i.test(offerSection)
 };
 
 const failed = Object.entries(checks).filter(([, ok]) => !ok).map(([name]) => name);

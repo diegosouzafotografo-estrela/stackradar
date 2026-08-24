@@ -6,6 +6,7 @@
   affiliate_application: https://www.hubspot.com/partners/affiliates
   affiliate_url: ""
   cta: "Começar com o HubSpot CRM grátis →"
+  product_summary: "CRM gratuito para organizar contatos, vendas e atendimento em um só lugar."
   status: apply
   network: Impact
   evidence: "30% recorrente por até 12 meses"
@@ -17,6 +18,7 @@
   affiliate_application: https://www.pipedrive.com/en/affiliate-partnership
   affiliate_url: ""
   cta: "Testar o Pipedrive por 30 dias →"
+  product_summary: "CRM visual para acompanhar negócios, tarefas e etapas do funil comercial."
   status: apply
   network: PartnerStack
   evidence: "20% da receita por 12 meses no nível inicial"
@@ -28,6 +30,7 @@
   affiliate_application: https://clickup.com/partners/affiliates
   affiliate_url: ""
   cta: "Começar um workspace grátis no ClickUp →"
+  product_summary: "Workspace flexível para reunir projetos, tarefas, documentos e colaboração."
   status: watch
   network: PartnerStack
   evidence: "link único após candidatura e aprovação"
@@ -39,6 +42,7 @@
   affiliate_application: https://monday.com/affiliate-program
   affiliate_url: ""
   cta: "Testar o monday.com gratuitamente →"
+  product_summary: "Gestão visual de projetos e fluxos de trabalho para equipes."
   status: watch
   network: PartnerStack
   evidence: "até 100% das vendas do primeiro ano conforme nível"
@@ -50,6 +54,7 @@
   affiliate_application: https://kit.com/affiliate
   affiliate_url: ""
   cta: "Criar sua newsletter no Kit →"
+  product_summary: "Plataforma para criar newsletter, audiência e automações para criadores."
   status: apply
   network: PartnerStack
   evidence: "50% no primeiro ano"
@@ -61,6 +66,7 @@
   affiliate_application: https://help.activecampaign.com/hc/en-us/articles/115000065864-Affiliate-program
   affiliate_url: ""
   cta: "Conhecer a automação da ActiveCampaign →"
+  product_summary: "Automação de marketing e relacionamento para nutrir leads e clientes."
   status: watch
   network: PartnerStack
   evidence: "30% recorrente por até 12 meses"
@@ -72,6 +78,7 @@
   affiliate_application: https://www.getresponse.com/affiliate-programs
   affiliate_url: ""
   cta: "Testar o GetResponse →"
+  product_summary: "Email marketing, automações e páginas para campanhas de aquisição e relacionamento."
   status: watch
   network: PartnerStack
   evidence: "40% recorrente inicial por 12 meses"
@@ -83,6 +90,7 @@
   affiliate_application: https://www.shopify.com/affiliates
   affiliate_url: ""
   cta: "Criar uma loja no Shopify →"
+  product_summary: "Plataforma completa para criar e operar uma loja virtual."
   status: watch
   network: Impact
   evidence: "até US$150 por indicação qualificada"
@@ -94,6 +102,7 @@
   affiliate_application: https://www.hostinger.com/affiliates
   affiliate_url: ""
   cta: "Conhecer os planos da Hostinger →"
+  product_summary: "Hospedagem e ferramentas para colocar um site no ar com praticidade."
   status: watch
   network: Direto
   evidence: "comissão inicial de 40%"
@@ -105,6 +114,7 @@
   affiliate_application: https://weeke.com.br/afiliados/
   affiliate_url: https://central.weeke.com.br/aff.php?aff=48
   cta: "Conhecer os planos da Weeke →"
+  product_summary: "Hospedagem e serviços web para publicar seu site com suporte em português."
   status: active
   network: Direto
   evidence: "programa Weeke: comissão de 10% nos primeiros 12 meses"
