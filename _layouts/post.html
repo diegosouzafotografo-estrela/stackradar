@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   {% seo %}
+  <script>window.STACKRADAR_CONFIG = { measurementId: {{ site.analytics.measurement_id | jsonify }} };</script>
+  <script src="{{ '/assets/stackradar-tracking.js' | relative_url }}" defer></script>
 </head>
 <body>
   <!-- Header -->
@@ -65,7 +67,7 @@
               <span>{{ offer_label }} · verificado em {{ offer.verified_on }}</span>
               <h3>{{ offer.key | replace: "-", " " | capitalize }}</h3>
               <p>{{ offer.evidence }}</p>
-              <a href="{{ offer_url }}" rel="{{ offer_rel }}" target="_blank" data-offer="{{ offer.key }}" data-status="{{ offer.status }}">{{ offer.cta }}</a>
+              <a href="{{ offer_url }}" rel="{{ offer_rel }}" target="_blank" data-track="product-cta" data-offer="{{ offer.key }}" data-status="{{ offer.status }}">{{ offer.cta }}</a>
             </article>
           {% endfor %}
         </div>

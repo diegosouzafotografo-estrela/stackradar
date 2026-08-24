@@ -5,3 +5,6 @@ _site/
 .sass-cache/
 vendor/
 docs/opportunity-scan.*
+
+# Local Netlify folder
+.netlify

@@ -16,6 +16,12 @@ author:
   name: "Elo Firme"
   url: "https://elofirme.com.br"
 
+# Medição: preencher somente após criar a propriedade do provedor.
+# Nunca colocar chaves privadas neste repositório.
+analytics:
+  provider: "gtag"
+  measurement_id: ""
+
 # Build
 markdown: kramdown
 permalink: /:categories/:title/
