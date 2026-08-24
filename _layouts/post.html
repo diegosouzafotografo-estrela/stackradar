@@ -42,10 +42,14 @@
           <span class="article-author">Por {{ page.author | default: "Elo Firme" }}</span>
         </div>
       </div>
+
+      {% include adsense-slot.html slot=site.data.adsense.slots.article_top %}
       
       <div class="article-content">
         {{ content }}
       </div>
+
+      {% include adsense-slot.html slot=site.data.adsense.slots.article_bottom %}
 
       {% assign article_offers = site.data.affiliate-catalog | where: "article", page.url %}
       {% if article_offers.size > 0 %}

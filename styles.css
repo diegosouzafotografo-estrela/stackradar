@@ -373,6 +373,17 @@ body {
   font-size: 0.9rem;
 }
 
+.adsense-slot {
+  width: 100%;
+  min-height: 0;
+  margin: var(--space-xl) auto;
+  overflow: hidden;
+}
+
+.adsense-slot ins {
+  min-height: 90px;
+}
+
 .product-offers { margin: 56px 0 28px; padding: 30px; border: 1px solid #dedbd3; border-top: 4px solid #FF6B35; background: #fbfaf7; }
 .product-offers-heading > span { color: #C94F24; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .product-offers-heading h2 { margin: 8px 0; color: #1A365D; font-size: 28px; }

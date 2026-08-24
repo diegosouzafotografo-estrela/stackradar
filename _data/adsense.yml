@@ -1,0 +1,7 @@
+# Configuração central do AdSense. Slots só são ativados após aprovação do site.
+client: "ca-pub-5198814973210614"
+enabled: false
+slots:
+  home_inline: ""
+  article_top: ""
+  article_bottom: ""

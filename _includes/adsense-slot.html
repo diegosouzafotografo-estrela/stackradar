@@ -1,0 +1,14 @@
+{% assign slot_id = include.slot | default: "" %}
+{% if site.data.adsense.enabled and site.data.adsense.client != "" and slot_id != "" %}
+<section class="adsense-slot" aria-label="Publicidade">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.data.adsense.client }}"
+       data-ad-slot="{{ slot_id }}"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</section>
+{% endif %}
