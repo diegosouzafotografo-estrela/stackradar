@@ -1,0 +1,36 @@
+name: Deploy StackRadar production
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    # Enable only after Configuração cadastrar VERCEL_ENABLED=true,
+    # VERCEL_TOKEN and VERCEL_ORG_ID as repository secrets/variables.
+    if: ${{ vars.VERCEL_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Build production site
+        run: bundle exec jekyll build --url https://stackradar.elofirme.com.br --baseurl ''
+      - uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-args: '--prod'
+          scope: diegosouzafotografo-estrelas-projects
+          alias-domains: stackradar.elofirme.com.br
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          working-directory: ./_site
