@@ -45,6 +45,7 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - vendor
 
 # Collections
 collections:
