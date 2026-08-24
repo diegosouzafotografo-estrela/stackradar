@@ -8,3 +8,5 @@ docs/opportunity-scan.*
 
 # Local Netlify folder
 .netlify
+.vercel
+.env*
