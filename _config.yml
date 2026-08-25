@@ -20,7 +20,7 @@ author:
 # Nunca colocar chaves privadas neste repositório.
 analytics:
   provider: "gtag"
-  measurement_id: ""
+  measurement_id: "G-812GDSLSWJ"
 
 # Build
 markdown: kramdown
