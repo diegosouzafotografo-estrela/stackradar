@@ -31,9 +31,9 @@ O visual deve apoiar essas respostas. Não precisa esconder preço, condição o
 
 Um pack de materiais pode ser útil quando a loja já sabe o que vende, publica com frequência e precisa de uma base para adaptar. A decisão depende do conteúdo entregue, da licença de uso, do estilo visual e da facilidade de edição.
 
-O [LOJISTA PACK](https://pay.kiwify.com.br/58NbCoG?afid=nWth8ppA){: .affiliate-link target="_blank" rel="nofollow sponsored noopener"} é uma oferta encontrada e aprovada na Kiwify para esse contexto. A apresentação do produtor descreve materiais voltados à criação de stories para lojistas. Confira conteúdo, preço, garantia e condições na página de destino.
+O LOJISTA PACK foi encontrado na Kiwify para esse contexto, mas a oferta foi suspensa. A página apresentada pelo produtor não forneceu informação verificável suficiente sobre o conteúdo e o link de origem apresentou problema de acesso. Sem clareza sobre entrega, suporte e condições, não há base para recomendação.
 
-> Transparência: o link acima é de afiliado. Se houver uma compra elegível, o StackRadar pode receber comissão, sem custo adicional informado nesta página. A indicação não é garantia de resultado.
+> Decisão editorial: não publicar CTA de compra enquanto a fonte, a entrega e o suporte não puderem ser conferidos.
 
 ## Para quem não é a melhor escolha
 
